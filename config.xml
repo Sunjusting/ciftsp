@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "cc.goodshow.ciftsp"
+        version     = "1.0.0"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.3.0" />
+        <name>道路交通安全展</name>
+
+        <description>
+			道路交通安全展是第六届中国国际道路交通安全产品博览会的官方APP
+        </description>
+
+        <author href="http://bayzhanhui.com" email="fangtong@bayzhanhui.com">
+			GoodShow.cc Team
+        </author>
+		
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		
+		<preference name="orientation" value="portrait" />
+		<preference name="fullscreen" value="false" />
+		
+		<icon src="icon.png" />
+		<gap:splash src="splash.png" />
+
+    </widget>
